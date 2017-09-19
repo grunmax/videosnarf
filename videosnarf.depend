@@ -1,0 +1,345 @@
+# depslib dependency file v1.0
+1273945207 source:/home/moon/rustspace/videosnarf/h264rtp.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<strings.h>
+	<errno.h>
+	<netinet/in.h>
+	"vsh264.h"
+
+1273945207 /home/moon/rustspace/videosnarf/vsh264.h
+
+1505845572 source:/home/moon/rustspace/videosnarf/main.c
+	"videosnarf.h"
+	"version.h"
+
+1274137178 /home/moon/rustspace/videosnarf/videosnarf.h
+	<stdio.h>
+	<unistd.h>
+	<strings.h>
+	<ctype.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in_systm.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netinet/udp.h>
+	<errno.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<stdlib.h>
+	<pcap.h>
+	<libnet.h>
+	<config.h>
+
+1505844907 /home/moon/rustspace/videosnarf//config.h
+
+1274117461 /home/moon/rustspace/videosnarf/version.h
+
+1274118585 source:/home/moon/rustspace/videosnarf/stream.c
+	"stream.h"
+
+1505846454 /home/moon/rustspace/videosnarf/stream.h
+	"videosnarf.h"
+	"byteswap.h"
+
+1448752290 /usr/include/pcap/pcap.h
+	<pcap-stdinc.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/time.h>
+	<pcap/bpf.h>
+	<stdio.h>
+	<Win32-Extensions.h>
+
+1505848544 source:/home/moon/rustspace/videosnarf/videosnarf.c
+	<pcap.h>
+	"stream.h"
+	"vsh264.h"
+
+1497646306 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1497646282 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1497646282 /usr/include/stdc-predef.h
+
+1497646306 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1497646306 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1497646309 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1497646321 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1497646309 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1497646283 /usr/include/xlocale.h
+
+1497646283 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1497646312 /usr/include/getopt.h
+	<ctype.h>
+
+1497646299 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1497646305 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1497646305 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1497646312 /usr/include/unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1497646309 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1497646309 /usr/include/strings.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+
+1497646305 /usr/include/errno.h
+	<features.h>
+	<bits/errno.h>
+
+1497646332 /usr/include/netinet/in.h
+	<features.h>
+	<stdint.h>
+	<sys/socket.h>
+	<bits/types.h>
+	<bits/in.h>
+	<endian.h>
+	<bits/byteswap.h>
+
+1497646305 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1497646332 /usr/include/netinet/ip.h
+	<features.h>
+	<sys/types.h>
+	<netinet/in.h>
+
+1497646332 /usr/include/netinet/in_systm.h
+	<sys/cdefs.h>
+	<sys/types.h>
+
+1497646332 /usr/include/netinet/udp.h
+	<features.h>
+	<sys/types.h>
+
+1497646332 /usr/include/netdb.h
+	<features.h>
+	<netinet/in.h>
+	<stdint.h>
+	<rpc/netdb.h>
+	<bits/siginfo.h>
+	<time.h>
+	<bits/netdb.h>
+
+1497646335 /usr/include/rpc/netdb.h
+	<features.h>
+	<stddef.h>
+
+1497646310 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1497646332 /usr/include/arpa/inet.h
+	<features.h>
+	<netinet/in.h>
+
+1448752290 /usr/include/pcap/bpf.h
+
+1404726660 /usr/include/libnet.h
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<signal.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+	<sys/sockio.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<ctype.h>
+	<sys/socket.h>
+	<net/if.h>
+	<sys/socket.h>
+	<ws2tcpip.h>
+	<windows.h>
+	<winsock2.h>
+	<win32/in_systm.h>
+	<net/ethernet.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<netdb.h>
+	<errno.h>
+	<stdarg.h>
+	"./libnet/libnet-types.h"
+	"./libnet/libnet-macros.h"
+	"./libnet/libnet-headers.h"
+	"./libnet/libnet-structures.h"
+	"./libnet/libnet-asn1.h"
+	"./libnet/libnet-functions.h"
+
+1497646313 /usr/include/fcntl.h
+	<features.h>
+	<bits/types.h>
+	<bits/fcntl.h>
+	<time.h>
+	<bits/stat.h>
+	<bits/fcntl2.h>
+
+1497646304 /usr/include/signal.h
+	<features.h>
+	<bits/sigset.h>
+	<bits/types.h>
+	<bits/signum.h>
+	<time.h>
+	<bits/siginfo.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<stddef.h>
+	<bits/sigstack.h>
+	<sys/ucontext.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+
+1497646321 /usr/include/net/if.h
+	<features.h>
+	<sys/types.h>
+	<sys/socket.h>
+
+1497646321 /usr/include/net/ethernet.h
+	<sys/cdefs.h>
+	<sys/types.h>
+	<linux/if_ether.h>
+
+1502362678 /usr/include/linux/if_ether.h
+	<linux/types.h>
+
+1502362680 /usr/include/linux/types.h
+	<asm/types.h>
+	<linux/posix_types.h>
+
+1502362679 /usr/include/linux/posix_types.h
+	<linux/stddef.h>
+	<asm/posix_types.h>
+
+1502362680 /usr/include/linux/stddef.h
+
+1404726660 /usr/include/libnet/libnet-types.h
+
+1404726660 /usr/include/libnet/libnet-macros.h
+
+1404726660 /usr/include/libnet/libnet-headers.h
+
+1404726660 /usr/include/libnet/libnet-structures.h
+	"Packet32.h"
+
+1404726660 /usr/include/libnet/libnet-asn1.h
+
+1404726660 /usr/include/libnet/libnet-functions.h
+
+1497646309 /usr/include/byteswap.h
+	<features.h>
+	<bits/byteswap.h>
+
+1448752290 /usr/include/pcap//pcap.h
+	<pcap-stdinc.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/time.h>
+	<pcap/bpf.h>
+	<stdio.h>
+	<Win32-Extensions.h>
+
